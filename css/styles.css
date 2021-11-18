@@ -93,6 +93,7 @@ img {
 .header-nav-list {
     display: flex;
     padding-left: 0;
+    margin: 0 auto;
 }
 
 .header-nav-link {
@@ -177,8 +178,7 @@ img {
     text-transform: uppercase;
     max-width: 696px;
     height: 120px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     color: var(--main-btn-color);
 }
 
@@ -237,6 +237,7 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     max-width: 270px;
+    margin-bottom: 0;
     color: var(--main-text-color);
 }
 
@@ -267,7 +268,7 @@ img {
     letter-spacing: 0.03em;
     color: var(--main-title-color);
     margin: 0 auto;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -308,6 +309,11 @@ img {
     background-color: var(--main-btn-color);
 }
 
+.team-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
 
 .team-pre-title {
     font-weight: 500;
@@ -315,7 +321,7 @@ img {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     margin: 0 auto;
     color: var(--main-title-color);
 }
@@ -326,7 +332,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     padding-top: 10px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     margin: 0 auto;
     color: var(--main-text-color);
 }
@@ -337,6 +343,7 @@ img {
 .footer{
     background-color: var(--main-bg-color);
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 
@@ -506,7 +513,7 @@ img {
     margin-right: -30px;
     margin-bottom: -30px;
     padding-left: 0;
-    padding-top: 50px;
+    margin-top: 50px;
     padding-bottom: 94px;
 }
 
@@ -521,13 +528,17 @@ img {
     box-sizing: border-box;
 }
 
+.gallery-content {
+    padding: 20px 24px;
+}
+
 .gallery-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
     color: var(--main-title-color);
-    padding: 20px 24px 4px 24px;
+    
     margin: 0 auto;
 }
 
@@ -536,6 +547,6 @@ img {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-    padding: 0 24px 20px 24px;
+    /* padding: 0 24px 20px 24px; */
     margin: 0 auto;
 }
